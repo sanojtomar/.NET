@@ -1,0 +1,87 @@
+08-07-2022 13:08:57	This log contains information about the import schema operation into project 'Implementation2-SQL' on computer 'SANOJ-TOMAR' by user 'sanoj'.
+08-07-2022 13:08:57	Import of database schema has started.
+08-07-2022 13:09:02	Gathering database credentials
+08-07-2022 13:09:02	Gathering database options
+08-07-2022 13:09:02	Gathering generic database scoped configuration option
+08-07-2022 13:09:02	Gathering users
+08-07-2022 13:09:02	Gathering roles
+08-07-2022 13:09:02	Gathering application roles
+08-07-2022 13:09:02	Gathering role memberships
+08-07-2022 13:09:02	Gathering filegroups
+08-07-2022 13:09:02	Gathering full-text catalogs
+08-07-2022 13:09:02	Gathering assemblies
+08-07-2022 13:09:02	Gathering certificates
+08-07-2022 13:09:02	Gathering asymmetric keys
+08-07-2022 13:09:02	Gathering symmetric keys
+08-07-2022 13:09:02	Gathering encrypted symmetric keys
+08-07-2022 13:09:02	Gathering schemas
+08-07-2022 13:09:02	Gathering XML schema collections
+08-07-2022 13:09:02	Gathering user-defined data types
+08-07-2022 13:09:02	Gathering user-defined types
+08-07-2022 13:09:02	Gathering table types
+08-07-2022 13:09:02	Gathering unique keys for table types
+08-07-2022 13:09:02	Gathering primary keys for table types
+08-07-2022 13:09:02	Gathering indexes for table types
+08-07-2022 13:09:02	Gathering check constraints for table types
+08-07-2022 13:09:02	Gathering default constraints for table types
+08-07-2022 13:09:02	Gathering partition functions
+08-07-2022 13:09:02	Gathering partition schemes
+08-07-2022 13:09:02	Gathering functions
+08-07-2022 13:09:02	Gathering encrypted functions
+08-07-2022 13:09:02	Gathering aggregates
+08-07-2022 13:09:02	Gathering procedures
+08-07-2022 13:09:02	Gathering encrypted procedures
+08-07-2022 13:09:02	Gathering tables
+08-07-2022 13:09:02	Gathering primary keys
+08-07-2022 13:09:02	Gathering unique constraints
+08-07-2022 13:09:02	Gathering foreign keys
+08-07-2022 13:09:02	Gathering default constraints
+08-07-2022 13:09:02	Gathering check constraints
+08-07-2022 13:09:02	Gathering views
+08-07-2022 13:09:02	Gathering encrypted views
+08-07-2022 13:09:02	Gathering indexes
+08-07-2022 13:09:02	Gathering statistics
+08-07-2022 13:09:02	Gathering full-text index stoplists
+08-07-2022 13:09:02	Gathering search property lists
+08-07-2022 13:09:02	Gathering search properties
+08-07-2022 13:09:02	Gathering full-text indexes
+08-07-2022 13:09:02	Gathering column store indexes
+08-07-2022 13:09:02	Gathering spatial indexes
+08-07-2022 13:09:02	Gathering XML indexes
+08-07-2022 13:09:02	Gathering Selective XML indexes
+08-07-2022 13:09:02	Gathering encrypted triggers
+08-07-2022 13:09:02	Gathering triggers
+08-07-2022 13:09:02	Gathering encrypted and clr ddl triggers
+08-07-2022 13:09:02	Gathering ddl triggers
+08-07-2022 13:09:02	Creating edge constraints
+08-07-2022 13:09:02	Gathering synonyms
+08-07-2022 13:09:02	Gathering defaults
+08-07-2022 13:09:02	Gathering data constraint uddt bindings
+08-07-2022 13:09:02	Gathering rules
+08-07-2022 13:09:02	Gathering data constraint uddt bindings
+08-07-2022 13:09:02	Gathering message types
+08-07-2022 13:09:02	Gathering queues
+08-07-2022 13:09:02	Gathering contracts
+08-07-2022 13:09:02	Gathering services
+08-07-2022 13:09:02	Gathering event notifications
+08-07-2022 13:09:02	Gathering remote service bindings
+08-07-2022 13:09:02	Gathering broker priorities
+08-07-2022 13:09:02	Gathering signatures
+08-07-2022 13:09:02	Gathering data compression options
+08-07-2022 13:09:02	Gathering sequence types
+08-07-2022 13:09:02	Gathering security policies
+08-07-2022 13:09:02	Gather column encryption keys
+08-07-2022 13:09:02	Gathering column master keys
+08-07-2022 13:09:02	Gathering external data sources
+08-07-2022 13:09:02	Gathering external file formats
+08-07-2022 13:09:02	Gathering external tables
+08-07-2022 13:09:02	Gathering extended properties
+08-07-2022 13:09:02	Gathering assemblies
+08-07-2022 13:09:02	Gathering credentials
+08-07-2022 13:09:02	Gathering logins
+08-07-2022 13:09:02	Gathering server audits
+08-07-2022 13:09:02	Scanning project for duplicate elements
+08-07-2022 13:09:02	Finished duplicate element processing
+08-07-2022 13:09:02	Finished importing database.
+08-07-2022 13:09:02	A summary of the import was saved to the following location: C:\All Files\SideHustle\Assignments\ABN_AMRO\Implementation2-SQL\Import Schema Logs\Implementation2-SQL_20220708073857.log
+08-07-2022 13:09:02	Click Finish to continue...

@@ -1,0 +1,17 @@
+C:\All Files\SideHustle\Assignments\ABN_AMRO\Implementation1Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\All Files\SideHustle\Assignments\ABN_AMRO\Implementation1Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\All Files\SideHustle\Assignments\ABN_AMRO\Implementation1Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\All Files\SideHustle\Assignments\ABN_AMRO\Implementation1Test\bin\Debug\Implementation1Test.dll
+C:\All Files\SideHustle\Assignments\ABN_AMRO\Implementation1Test\bin\Debug\Implementation1Test.pdb
+C:\All Files\SideHustle\Assignments\ABN_AMRO\Implementation1Test\bin\Debug\Implementation1.exe
+C:\All Files\SideHustle\Assignments\ABN_AMRO\Implementation1Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\All Files\SideHustle\Assignments\ABN_AMRO\Implementation1Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\All Files\SideHustle\Assignments\ABN_AMRO\Implementation1Test\bin\Debug\Implementation1.pdb
+C:\All Files\SideHustle\Assignments\ABN_AMRO\Implementation1Test\bin\Debug\Implementation1.exe.config
+C:\All Files\SideHustle\Assignments\ABN_AMRO\Implementation1Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\All Files\SideHustle\Assignments\ABN_AMRO\Implementation1Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\All Files\SideHustle\Assignments\ABN_AMRO\Implementation1Test\obj\Debug\Implementation1Test.csproj.AssemblyReference.cache
+C:\All Files\SideHustle\Assignments\ABN_AMRO\Implementation1Test\obj\Debug\Implementation1Test.csproj.CoreCompileInputs.cache
+C:\All Files\SideHustle\Assignments\ABN_AMRO\Implementation1Test\obj\Debug\Implementation1Test.csproj.CopyComplete
+C:\All Files\SideHustle\Assignments\ABN_AMRO\Implementation1Test\obj\Debug\Implementation1Test.dll
+C:\All Files\SideHustle\Assignments\ABN_AMRO\Implementation1Test\obj\Debug\Implementation1Test.pdb

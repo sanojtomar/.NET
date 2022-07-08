@@ -1,0 +1,85 @@
+﻿@page "/"
+
+@inject HttpClient Http
+@using System.Text.Json
+@using System.Net.Http
+@using System.Net.Http.Json
+
+<h1>Calculation</h1>
+
+<p>Raise and request from WEB API</p>
+
+<button class="btn btn-primary" @onclick="DoCalculation">Click me</button>
+
+@if (status == null)
+{
+    <p><em>Waiting...</em></p>
+}
+else if (status != null && status.Result == null)
+{
+    <p><em>@status.Percentage  <text> @status.StatusCode </text></em></p>
+
+    
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Result</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in status.Result)
+            {
+                <tr>
+                    <td>@item</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+
+    StatusObject status;
+
+    private const string ServiceEndpoint = "Calculation";
+
+    private async void DoCalculation()
+    {
+        string trackingId = await CallAPI("Foo", "Browns"); // parameters can come  from the textboxs
+
+        while (true)
+        {
+            status = await Http.GetFromJsonAsync<StatusObject>(ServiceEndpoint + "/?id=" + trackingId);
+
+            await InvokeAsync(StateHasChanged);
+
+            System.Threading.Thread.Sleep(5000);
+
+            if (status != null && (status.StatusCode == "Completed" || status.StatusCode == "Failed"))
+                break;
+        }
+    }
+
+    private async Task<string> CallAPI(string firstName, string lastName)
+    {
+        var parameters = new Dictionary<string, string>();
+        parameters["firstName"] = firstName;
+        parameters["lastName"] = lastName;
+
+        HttpResponseMessage message = await Http.PostAsync(ServiceEndpoint, new FormUrlEncodedContent(parameters));
+        var contentStream = await message.Content.ReadAsStreamAsync();
+        return await JsonSerializer.DeserializeAsync<string>(contentStream);
+
+    }
+
+    public class StatusObject
+    {
+        public int Percentage { get; set; }
+        public string StatusCode { get; set; }
+        public IList<string> Result { get; set; }
+    }
+
+}

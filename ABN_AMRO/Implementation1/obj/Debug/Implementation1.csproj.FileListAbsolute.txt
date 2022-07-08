@@ -1,0 +1,6 @@
+C:\All Files\SideHustle\Assignments\ABN_AMRO\Implementation1\bin\Debug\Implementation1.exe.config
+C:\All Files\SideHustle\Assignments\ABN_AMRO\Implementation1\bin\Debug\Implementation1.exe
+C:\All Files\SideHustle\Assignments\ABN_AMRO\Implementation1\bin\Debug\Implementation1.pdb
+C:\All Files\SideHustle\Assignments\ABN_AMRO\Implementation1\obj\Debug\Implementation1.csproj.CoreCompileInputs.cache
+C:\All Files\SideHustle\Assignments\ABN_AMRO\Implementation1\obj\Debug\Implementation1.exe
+C:\All Files\SideHustle\Assignments\ABN_AMRO\Implementation1\obj\Debug\Implementation1.pdb
