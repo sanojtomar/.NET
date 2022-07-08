@@ -1,9 +1,0 @@
-C:\All Files\SideHustle\Assignments\ABN_AMRO\Implementation2\bin\Debug\Data\ApplicationDB.mdf
-C:\All Files\SideHustle\Assignments\ABN_AMRO\Implementation2\bin\Debug\Data\ApplicationDB_log.ldf
-C:\All Files\SideHustle\Assignments\ABN_AMRO\Implementation2\bin\Debug\Implementation2.exe.config
-C:\All Files\SideHustle\Assignments\ABN_AMRO\Implementation2\bin\Debug\Implementation2.exe
-C:\All Files\SideHustle\Assignments\ABN_AMRO\Implementation2\bin\Debug\Implementation2.pdb
-C:\All Files\SideHustle\Assignments\ABN_AMRO\Implementation2\obj\Debug\Implementation2.csproj.AssemblyReference.cache
-C:\All Files\SideHustle\Assignments\ABN_AMRO\Implementation2\obj\Debug\Implementation2.csproj.CoreCompileInputs.cache
-C:\All Files\SideHustle\Assignments\ABN_AMRO\Implementation2\obj\Debug\Implementation2.exe
-C:\All Files\SideHustle\Assignments\ABN_AMRO\Implementation2\obj\Debug\Implementation2.pdb

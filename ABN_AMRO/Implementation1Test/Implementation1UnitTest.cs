@@ -9,7 +9,7 @@ namespace Implementation1Test
     public class Implementation1UntiTest
     {
         [TestMethod]
-        public void Test_Process_Success()
+        public void Test_Process_Equal()
         {
             string firstName = "Joe";
             string lastName = "Browns";
@@ -46,7 +46,7 @@ namespace Implementation1Test
         }
 
         [TestMethod]
-        public void Test_Process_Fail()
+        public void Test_Process_NoEqual()
         {
             string firstName = "Joe";
             string lastName = "Browns";
@@ -76,9 +76,9 @@ namespace Implementation1Test
             }
 
             DoWork doWork = new DoWork();
-            List<string> actualItems = doWork.Process(firstName, "") as List<string>;
+            List<string> actualItems = doWork.Process("John", "Barrow") as List<string>;
 
-            CollectionAssert.AreEqual(expectedItems, actualItems);
+            CollectionAssert.AreNotEqual(expectedItems, actualItems);
 
         }
     }

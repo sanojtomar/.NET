@@ -9,7 +9,7 @@
 
 <p>Raise and request from WEB API</p>
 
-<button class="btn btn-primary" @onclick="DoCalculation">Click me</button>
+<button class="btn btn-primary" disabled="@isDisabled" @onclick="DoCalculation">Click me</button>
 
 @if (status == null)
 {
@@ -44,11 +44,14 @@ else
 
     StatusObject status;
 
+    bool isDisabled = false;
     private const string ServiceEndpoint = "Calculation";
 
     private async void DoCalculation()
     {
+
         string trackingId = await CallAPI("Foo", "Browns"); // parameters can come  from the textboxs
+        isDisabled = true;
 
         while (true)
         {
@@ -59,7 +62,12 @@ else
             System.Threading.Thread.Sleep(5000);
 
             if (status != null && (status.StatusCode == "Completed" || status.StatusCode == "Failed"))
+            {
+                isDisabled = false;
+                await InvokeAsync(StateHasChanged);
+
                 break;
+            }
         }
     }
 
